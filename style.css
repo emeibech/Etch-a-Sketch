@@ -1,0 +1,14 @@
+
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-template: repeat(100, minmax(auto, 16px)) / repeat(100, minmax(auto, 16px));
+    width: 400px;
+    height: 400px;
+}
+
+.boxes {
+    border: 1px solid gray;
+}
+
