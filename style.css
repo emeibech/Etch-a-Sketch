@@ -16,8 +16,8 @@ background-image: linear-gradient(45deg, #f1c8c9, #a3aed0);
 .container {
     display: grid;
     grid-template: repeat(60, minmax(auto, auto)) / repeat(60, minmax(auto, auto));
-    width: 800px;
-    height: 800px;
+    width: 720px;
+    height: 720px;
 }
 
 .boxes {
@@ -40,12 +40,35 @@ h4, p {
 
 }
 
+.buttons {
+    display: flex;
+    gap: 90px;
+}
+button {
+    padding: 15px 30px;
+    flex: 1;
+    background-image: linear-gradient(45deg, #eecda3, #ef629f);
+    border-radius: 8px;
+    border: 1px solid #ef629f;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-image: linear-gradient(45deg, #ef629f, #eecda3);
+    border: 1px solid #eecda3;
+}
+
+button:active {
+    transform: translateY(1px)
+}
+
 .footer {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    color: whitesmoke;
     padding: 8px;
+    margin-top: 8px;
 }
