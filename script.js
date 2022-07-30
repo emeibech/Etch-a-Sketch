@@ -1,5 +1,5 @@
 //create grid of boxes
-let total = 6400;
+let total = 3600;
 const container = document.querySelector('.container');
 for (let i = 0; i < total; i++) {
     let boxes = document.createElement('div');
